@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="domain">
+      <UniqueIdentifier>{9f5a2259-3e52-4f33-a7b3-3c37c7b6634b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{6f4a56ca-8d6e-4e3c-aaf0-d1dc14308d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{031da8dd-5b81-47f7-90df-5ac898e738f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\entities">
+      <UniqueIdentifier>{b6d691ce-4c81-4e0c-a5d5-f228b96b9fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\validators">
+      <UniqueIdentifier>{dfa96050-c9c0-4460-8950-e31bd84fbc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\utility">
+      <UniqueIdentifier>{7984bb20-8a54-4ee1-b450-2dfa77eaab1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\utility\Headers">
+      <UniqueIdentifier>{48158d25-b1ca-4429-ba38-9d0afa27081d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\utility\Sources">
+      <UniqueIdentifier>{a0385250-9dde-4f6b-9227-cf005e0d54c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Headers">
+      <UniqueIdentifier>{079d2478-55b2-4358-9753-3c833e3ea19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Sources">
+      <UniqueIdentifier>{1f1c3cc0-b329-4b7d-a8b7-494dfb1e0c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="repositories">
+      <UniqueIdentifier>{f82c8419-ff83-4b97-a4df-b22ed9a72871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="repositories\Headers">
+      <UniqueIdentifier>{55893cf6-7426-4157-b631-c504e8497903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services">
+      <UniqueIdentifier>{930faf1b-8bbf-4e56-93d5-c6a4a2197ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services\Headers">
+      <UniqueIdentifier>{68f2faf4-3e78-405e-997f-42061ef2f97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services\Sources">
+      <UniqueIdentifier>{9909859b-2be0-4da1-9472-a75f10eecb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Headers">
+      <UniqueIdentifier>{1ef9fff3-0800-4053-9bf0-25f72ed3c5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Sources">
+      <UniqueIdentifier>{758e74ca-4f27-4691-bec1-63fdd850e76c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Event.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>domain\utility\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventValidator.h">
+      <Filter>domain\validators</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicVector.h">
+      <Filter>domain\utility\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="domain.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository.h">
+      <Filter>repositories\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="repositories.h">
+      <Filter>repositories\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="services.h">
+      <Filter>services\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventService.h">
+      <Filter>services\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>ui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminConsole.h">
+      <Filter>ui\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Event.cpp">
+      <Filter>domain\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>domain\utility\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EventValidator.cpp">
+      <Filter>domain\validators</Filter>
+    </ClCompile>
+    <ClCompile Include="EventService.cpp">
+      <Filter>services\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>ui\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>core\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="add_test_items.cpp">
+      <Filter>core\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminConsole.cpp">
+      <Filter>ui\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿  add_test_items.cpp
+  AdminConsole.cpp
+  Console.cpp
+  DateTime.cpp
+  Event.cpp
+  EventService.cpp
+  EventValidator.cpp
+  main.cpp
+  Generating Code...
+  Lab5.vcxproj -> C:\Alin\Proiecte\C++\OOP\a5-6-St-Alin\src\Debug\Lab5.exe
